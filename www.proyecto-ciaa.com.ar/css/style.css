@@ -1,0 +1,522 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block
+}
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+[hidden],
+template {
+    display: none
+}
+a {
+    background: 0 0
+}
+a:active,
+a:hover {
+    outline: 0
+}
+abbr[title] {
+    border-bottom: 1px dotted
+}
+b,
+strong {
+    font-weight: 700
+}
+dfn {
+    font-style: italic
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+mark {
+    background: #ff0;
+    color: #000
+}
+small {
+    font-size: 80%
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+sup {
+    top: -.5em
+}
+sub {
+    bottom: -.25em
+}
+img {
+    border: 0
+}
+svg:not(:root) {
+    overflow: hidden
+}
+figure {
+    margin: 1em 40px
+}
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+pre {
+    overflow: auto
+}
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+button {
+    overflow: visible
+}
+button,
+select {
+    text-transform: none
+}
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+input {
+    line-height: normal
+}
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+    -moz-appearance: none
+}
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+legend {
+    border: 0;
+    padding: 0
+}
+textarea {
+    overflow: auto
+}
+optgroup {
+    font-weight: 700
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+td,
+th {
+    padding: 0
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+a:link,
+a:visited {
+    color: #2e9afe;
+    cursor: pointer;
+    text-decoration: none
+}
+a:hover {
+    color: #993210;
+    text-decoration: none
+}
+a:focus,
+p:focus,
+h1:focus,
+h2:focus,
+h3:focus {
+    outline: 0
+}
+img {
+    max-width: 100%
+}
+body {
+    color: #fffffd;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center
+}
+
+h1,
+h3,
+p,
+a {
+    word-wrap: break-word;
+    -webkit-line-break: after-white-space;
+    -ms-line-break: after-white-space;
+
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 0px;
+    margin: 5px 0px 0px 40px;
+    list-style: none;
+    text-align: left;
+    display: block;
+    font-weight:bold; 
+}
+
+.categoria {
+    margin: 0px 0px 0px 0px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #303030;
+    padding: 15px 0px 50px 0px;
+}
+.categoria:nth-child(odd) {background: #444}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1150px;
+    width: 90%
+}
+.visible {
+    display: block
+}
+.invisible {
+    display: none
+}
+
+/* Style the breadcrumb */
+ul.breadcrumb {
+    padding: 0px;
+    list-style: none;
+    text-align:left;
+    margin: 5px 0px 30px 40px;
+    
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline-block;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    /*color: black;*/
+    content: ">";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #2e9afe;
+    
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+    color: white;
+} 
+
+
+
+#nav-bar {
+    background: #ffffff;
+    display: block;
+    min-height: 50px;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    /*    height: 100px  */  /* Esto configura la altura de la parte blanca de arriba */
+}
+#nav-bar p {
+    color: #9a9791;
+    display: inline-block;
+    font-size: 16px
+}
+#nav-bar #social {
+    float: right;   
+    padding: 23px 5px 10px 10px  /* Esto configura el margen de los iconitos de las redes sociales: arriba, derecha, abajo, izquierda */
+}
+#nav-bar .social-div {
+    display: inline-block;
+}
+
+
+
+#nav-bar .social-div img {
+    display: inline-block;
+    margin-right: 4px
+}
+
+#nav-left {
+    float: left;
+    text-align:left;
+    width:272px;
+}
+#nav-left img{
+    height: 91px;
+    display: inline-block;
+    width: 291px;
+}
+
+#nav-right {
+    float: right;
+    /*width: 75%;*/
+    text-align: right;
+
+}
+
+
+#nav-right #lang-selector {
+    text-align: right;
+    margin-right: 15px;
+}
+
+#nav-right #lang-selector a {
+    display: inline-block;
+}
+
+#nav-right #lang-selector img {
+    width:23px;
+    height:16px;
+}
+div.column img {
+    height:  229px;
+    width:  344px;
+    
+}
+/* Duda */
+#nav-bar #social-icon {
+    position: relative;
+    top: 2px
+}
+
+#cells #breadcrumb {
+    margin: 0 10px 15px;
+    
+}
+/*  ese primer padding ayuda...*/
+#cells {
+    background: #332e2c;
+    /*overflow: hidden;*/
+    padding: 10px 0 100px;
+    
+
+    color: #cac7c1;
+    margin-left:10px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    /*max-width: 90%*/
+}
+#cells #cells-row {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    /*padding-top: 15px;*/
+    width: 100%;
+  /*  width: 1140px */
+}
+#cells .column {
+    display: inline-block;
+    width: 360px;
+    margin-top: 30px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+#cells .column img {
+    clear: both;
+    float: left;
+    margin-bottom: 15px
+}
+#cells h3 {
+    clear: both;
+    color: #2e9afe;
+    font-family: 'Open Sans Condensed';
+    font-size: 28px;
+    margin: 20px 0 0;
+    text-align: left
+}
+#cells p {
+    color: #cac7c1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 5px;
+    text-align: left
+}
+/*
+#cells-row .column p {
+    margin-right: 5px;
+}
+*/
+
+/*
+@media only screen and (max-width: 1210px) {
+#nav-container {
+        height: auto
+    }
+    #cells #cells-row {
+        width: 95%
+    }
+    #cells .column {
+        width: 32%
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #nav-container {
+        height: auto
+    }
+
+    #nav-bar #info {
+        float: none;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    #nav-bar .social-div {
+        float: none
+    }
+    #cells #cells-row {
+        width: 90%
+    }
+
+    #cells .column img {
+        margin-bottom: 20px
+    }
+    #cells h2 {
+        font-size: 34px;
+        letter-spacing: 1.7px
+    }
+    #cells h3 {
+        font-size: 22px
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    #nav-bar {
+        padding: 10px 0
+    }
+    #nav-bar .social-div {
+        clear: both;
+        float: left
+    }
+    #nav-bar .social-div p {
+        font-size: 14px;
+        margin: 5px 0
+    }
+    #nav-bar #info {
+        padding: 5px 0
+    }
+    #cells #cells-row {
+        margin-bottom: 10px
+    }
+    #cells .column {
+        width: 70%;
+        margin-bottom: 50px
+    }
+}
+*/
+/*
+@media only screen and (max-width: 500px) {
+    #nav-bar .social-div {
+        margin-left: 30
+    }
+    /*
+    #cells .column {
+        margin-bottom: 50px;
+        display: block;
+    }
+    */
+    /* Display list items side by side */
+/*    ul.breadcrumb li {
+        display: block;
+    }
+
+}
+*/
+
+@media only screen and (max-width: 320px) {
+  div.column img {
+      width: 300px;
+  }
+  div.column h3 {
+      width: 300px;
+  }
+  div.column p {
+     width: 320px;      
+      
+  }
+}
