@@ -2,6 +2,8 @@
 
 Este repositorio contiene el mirror de la página web del Proyecto Computadora Industrial Abierta Argentina.
 
+La versión web se puede acceder desde la URL: https://mefhigoseth.github.io/ciaa-web/
+
 ## Cómo se hizo este Mirror ?
 
 Para realizar el mirror se utilizó el siguiente comando:
